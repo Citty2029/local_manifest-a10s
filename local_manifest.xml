@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rem" fetch="https://github.com" /> 
+        <remote name="rem" fetch="https://github.com" clone-depth="1" /> 
       
          <!-- Device -->
         <project path="device/samsung/a10s" name="Citty2029/android_device_samsung_a10s" remote="rem" revision="main" clone-depth="1" />
         <project path="vendor/samsung/lpm" name="Citty2029/android_vendor_samsung_a10s" remote="rem" revision="main" clone-depth="1" />
+        <project path="kernel/Samsung/a10s" name="Citty2029/android_kernel_samsung_a10s" remote="rem" revision="main" clone-depth="1" />
        </manifest>
