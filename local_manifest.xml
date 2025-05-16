@@ -5,7 +5,5 @@
 
         <!-- Trees -->
   <project path="device/samsung/a10s" name="prop_device_samsung_a10s" remote="los20" revision="los20" />    
-  <project path="kernel/samsung/a10s" name="prop_kernel_samsung_a10s" remote="los20" revision="los20" />
   <project path="vendor/samsung/a10s" name="prop_vendor_samsung_a10s" remote="los20" revision="los20" />
-  <project path="vendor/samsung/lpm" name="android_vendor_samsung_a10s" remote="los20" revision="main" />
 </manifest>
