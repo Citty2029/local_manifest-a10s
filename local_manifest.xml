@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+        <!-- Remote -->
+        <remote name="los20" fetch="https://github.com/citty2029" clone-depth="1" />
 
-	<!-- Sync trees -->
-	<project path="device/samsung/a10s" name="hiratazx/android_device_samsung_a10s" remote="github" revision="thirteen" />
-	<project path="vendor/samsung/lpm" name="Samsung-Galaxy-G85-JDM/vendor_samsung_lpm-a10s" remote="github" revision="main" />
-	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-20" />
-	<project path="kernel/samsung/a10s" name="hiratazx/android_kernel_samsung_a10s-r" remote="github" revision="upstream" />
-          
+        <!-- Trees -->
+  <project path="device/samsung/a10s" name="prop_device_samsung_a10s" remote="los20" revision="los20" />    
+  <project path="kernel/samsung/a10s" name="prop_kernel_samsung_a10s" remote="los20" revision="los20" />
+  <project path="vendor/samsung/a10s" name="prop_vendor_samsung_a10s" remote="los20" revision="los20" />
+  <project path="vendor/samsung/lpm" name="android_vendor_samsung_a10s" remote="los20" revision="main" />
 </manifest>
